@@ -144,23 +144,23 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Screenshots
 
 ### HomePage View
-![Dashboard Screenshot](https://github.com/IPRO497/WiFiWalrus/raw/main/public/screenshots/homePage.png)
+![Dashboard Screenshot](https://github.com/MitChaudhari/assistme-prototype/raw/main/public/screenshots/homePage.png)
 
 ### Goal Setup
-![Goals Screenshot](https://github.com/IPRO497/WiFiWalrus/raw/main/public/screenshots/setupPage.png)
+![Goals Screenshot](https://github.com/MitChaudhari/assistme-prototype/raw/main/public/screenshots/setupPage.png)
 
 ### Dashboard View
-![Dashboard Screenshot](https://github.com/IPRO497/WiFiWalrus/raw/main/public/screenshots/dashboard.png)
+![Dashboard Screenshot](https://github.com/MitChaudhari/assistme-prototype/raw/main/public/screenshots/dashboard.png)
 
 ### Goal Management
-![Goals Screenshot](https://github.com/IPRO497/WiFiWalrus/raw/main/public/screenshots/goalPage.png)
+![Goals Screenshot](https://github.com/MitChaudhari/assistme-prototype/raw/main/public/screenshots/goalPage.png)
 
 ### Resources Page
-![Goals Screenshot](https://github.com/IPRO497/WiFiWalrus/raw/main/public/screenshots/resourcesPage.png)
+![Goals Screenshot](https://github.com/MitChaudhari/assistme-prototype/raw/main/public/screenshots/resourcesPage.png)
 
 ### Progress Tracking
-![Progress Screenshot](https://github.com/IPRO497/WiFiWalrus/raw/main/public/screenshots/progressPage1.png)
-![Progress Screenshot](https://github.com/IPRO497/WiFiWalrus/raw/main/public/screenshots/progressPage2.png)
+![Progress Screenshot](https://github.com/MitChaudhari/assistme-prototype/raw/main/public/screenshots/progressPage1.png)
+![Progress Screenshot](https://github.com/MitChaudhari/assistme-prototype/raw/main/public/screenshots/progressPage2.png)
 
 ---
 

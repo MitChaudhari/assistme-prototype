@@ -10,12 +10,13 @@ AssistMe is a modern and interactive prototype designed to enhance the academic 
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Features](#features)
-3. [File Structure](#file-structure)
-4. [Technologies Used](#technologies-used)
-5. [Setup Instructions](#setup-instructions)
-6. [Future Enhancements](#future-enhancements)
-7. [License](#license)
+2. [Live Demo](#live-demo)
+3. [Features](#features)
+4. [File Structure](#file-structure)
+5. [Technologies Used](#technologies-used)
+6. [Setup Instructions](#setup-instructions)
+7. [Future Enhancements](#future-enhancements)
+8. [License](#license)
 
 ---
 
@@ -29,6 +30,16 @@ AssistMe is designed to empower students to:
 - Provide feedback on resources to help the assistant learn and improve.
 
 This prototype simulates the experience of a student assistant. While it currently focuses on static data, future enhancements can integrate AI models like OpenAI to make the assistant adaptive and dynamic.
+
+---
+
+## Live Demo
+
+Experience AssistMe live:
+
+🔗 **[Try the Live Demo Here](https://assistme-prototype.vercel.app/)**
+
+> *Website `https://assistme-prototype.vercel.app/` *
 
 ---
 

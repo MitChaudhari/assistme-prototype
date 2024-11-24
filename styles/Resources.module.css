@@ -1,0 +1,245 @@
+/* Resources.module.css */
+
+.resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    background: radial-gradient(circle, #1e1e1e 0%, #121212 100%);
+    color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+  }
+  
+  .navButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    color: #4caf50;
+    padding: 10px 20px;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  }
+  
+  .navButton:hover {
+    background: #4caf50;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navButton svg {
+    font-size: 1.2rem;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f0f0f0;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .main {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    flex: 1 1 calc(30% - 30px);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  .cardIcon {
+    font-size: 2.5rem;
+    color: #4caf50;
+    margin-bottom: 15px;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+  }
+  
+  .cardDescription {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .cardTags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .cardTag {
+    background: #4caf50;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .cardActions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .bookmarkButton {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .bookmarkButton:hover {
+    color: #4caf50;
+  }
+  
+  /* Modal styling */
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+    position: relative;
+    animation: fadeIn 0.3s ease;
+    color: #f0f0f0;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .closeButton:hover {
+    color: #ff6f61;
+  }
+  
+  .modalTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .modalContent {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+    white-space: pre-wrap;
+  }
+  
+  .modalTags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .modalTag {
+    background: #4caf50;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .modalActions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .feedbackButton {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .feedbackButton:hover {
+    color: #4caf50;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

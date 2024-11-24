@@ -1,0 +1,298 @@
+/* Goals.module.css */
+
+.goals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  background: radial-gradient(circle, #1e1e1e 0%, #121212 100%);
+  color: #f0f0f0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.headerButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.rightButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.backButton,
+.resourcesButton,
+.progressButton {
+  background: none;
+  border: none;
+  color: #4caf50;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.backButton:hover,
+.resourcesButton:hover,
+.progressButton:hover {
+  color: #43a047;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+/* Adjusted title alignment */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f0f0f0;
+  margin-top: 10px;
+}
+
+.titleIcon {
+  color: #4caf50;
+}
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.goalList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.goalItem {
+  background: #2a2a2a;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.goalItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.goalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.goalDescription {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4caf50;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.goalIcon {
+  font-size: 1.5rem;
+}
+
+.goalActions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.goalActions button:hover {
+  color: #ff6f61;
+}
+
+.goalDetails {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.goalDetails span {
+  color: #f0f0f0;
+}
+
+.progressBar {
+  width: 100%;
+  height: 10px;
+  background: #444;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress {
+  height: 100%;
+  background: #4caf50;
+}
+
+.progressText {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.addGoalButton {
+  background: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.addGoalButton:hover {
+  background: #43a047;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.addGoalForm {
+  background: #333;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.input,
+.select,
+.slider {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background: #2a2a2a;
+  color: #f0f0f0;
+  font-size: 1rem;
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.submitButton {
+  background: #ff6f61;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submitButton:hover {
+  background: #ff5345;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Styling */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #ccc;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #ff6f61;
+}
+
+.modalTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+.modalContent {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.modalContent strong {
+  color: #f0f0f0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

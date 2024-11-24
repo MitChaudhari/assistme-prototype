@@ -1,0 +1,14 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply global font-family */
+  body {
+    font-family: "Arial", sans-serif;
+    background: radial-gradient(circle, #1a1a1a, #000000);
+    color: #e0e0e0;
+  }
+  
